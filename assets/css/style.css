@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    background-image: url('../images/comic-pattern.png');
+    background-repeat: repeat;
+    background-size: 300px;
+    color: #ffffff;
+}
+
+
+.comicStoreNav {
+    list-style-type: none;
+    position: sticky;
+    top: 0%;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.comicStoreNav>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.comicStoreNav>li>a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.comicStoreNavItem {
+    margin-bottom: 20px;
+    display: inline;
+    width: fit-content;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    margin-right: 40px;
+    /* top-bottom right-left */
+    /* top right bottom left */
+}
+
+.comicStoreLogo {
+    padding: 8px 0px;
+    width: 300px;
+}
+
+.comicBooksContainer {
+    padding: 20px 80px;
+}
+
+.comicCard {
+    margin: 50px 0px;
+    width: fit-content;
+}
+
+.comicImage {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.comicImage:hover {
+    filter: opacity(80%);
+    cursor: pointer;
+}
+
+.comicDetailsContainer {
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px dashed #ffffff;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: #ffffff; */
+    margin-top: 15px;
+}
+
+.comicButton {
+    background-color: red;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 8px 14px;
+    color: #ffffff;
+    font-weight: 700;
+    float: right;
+    transform: translateY(-10px);
+}
+
+.comicButton:hover {
+    background-color: maroon;
+    cursor: pointer;
+}

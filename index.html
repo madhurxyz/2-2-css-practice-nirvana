@@ -1,20 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="{path_to_icon}" type="image/x-icon">
+    <title>Sans Comic - Comic Book Store</title>
+    <meta property="og:image" content="./assets/images/site-content.png" />
+    <meta name="description"
+        content="This is a comic book store webpage to practice HTML & CSS, drawing from the Marvel API.">
+    <meta name="keywords" content="Comic, Books, Marvel, HTML, CSS">
+    <meta name="author" content="Madhur Malhotra">
+    <link rel="shortcut icon" href="./assets/images/sc-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div class="comicStoreNavigation">
-        <figure>
-            <img src="{path-to-logo}" alt="comicStoreLogo">
-        </figure>
-        <p>Home</p>
-        <p>Logout</p>
-    </div>
+    <ul class="comicStoreNav">
+        <li class="comicStoreNavItem">
+            <a href="">
+                <img class="comicStoreLogo" src="./assets/images/sans-comic-logo.png" alt="Comic Store Logo">
+            </a>
+        </li>
+        <li class="comicStoreNavItem">
+            <a href="">
+                Home
+            </a>
+        </li>
+
+        <li class="comicStoreNavItem">
+            <a href="./about.html" target="_blank">
+                About
+            </a>
+        </li>
+
+        <li class="comicStoreNavItem">
+            <a href="" target="_blank">
+                Cart
+            </a>
+        </li>
+        <li class="comicStoreNavItem">
+            <a href="">
+                Logout
+            </a>
+        </li>
+    </ul>
     <div class="comicBooksContainer">
         <div class="comicCard">
             <figure>
